@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "nats.ws": "^1.1.0-3",
+    "nats.ws": "1.1.0-4",
     "next": "10.1.1",
     "next-transpile-modules": "^6.3.0",
     "react": "17.0.2",

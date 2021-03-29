@@ -1679,10 +1679,10 @@ native-url@0.3.4:
   dependencies:
     querystring "^0.2.0"
 
-nats.ws@^1.1.0-3:
-  version "1.1.0-3"
-  resolved "https://ric.jfrog.io/ric/api/npm/npm/nats.ws/-/nats.ws-1.1.0-3.tgz#dcba81ee4893630a58eb0845b471a3c81ad78349"
-  integrity sha1-3LqB7kiTYwpY6whFtHGjyBrXg0k=
+nats.ws@1.1.0-4:
+  version "1.1.0-4"
+  resolved "https://ric.jfrog.io/ric/api/npm/npm/nats.ws/-/nats.ws-1.1.0-4.tgz#4d631ca6c94a5e9e00a2250666e1d8a36ad7e419"
+  integrity sha1-TWMcpslKXp4AoiUGZuHYo2rX5Bk=
   optionalDependencies:
     nkeys.js "^1.0.0-9"
 
