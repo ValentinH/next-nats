@@ -889,6 +889,14 @@ encoding@0.1.13:
   dependencies:
     iconv-lite "^0.6.2"
 
+enhanced-resolve@^5.7.0:
+  version "5.7.0"
+  resolved "https://ric.jfrog.io/ric/api/npm/npm/enhanced-resolve/-/enhanced-resolve-5.7.0.tgz#525c5d856680fbd5052de453ac83e32049958b5c"
+  integrity sha1-UlxdhWaA+9UFLeRTrIPjIEmVi1w=
+  dependencies:
+    graceful-fs "^4.2.4"
+    tapable "^2.2.0"
+
 enquirer@^2.3.5:
   version "2.3.6"
   resolved "https://registry.yarnpkg.com/enquirer/-/enquirer-2.3.6.tgz#2a7fe5dd634a1e4125a975ec994ff5456dc3734d"
@@ -1216,7 +1224,7 @@ globals@^12.1.0:
   dependencies:
     type-fest "^0.8.1"
 
-graceful-fs@^4.1.2:
+graceful-fs@^4.1.2, graceful-fs@^4.2.4:
   version "4.2.6"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.6.tgz#ff040b2b0853b23c3d31027523706f1885d76bee"
   integrity sha512-nTnJ528pbqxYanhpDYsi4Rd8MAeaBA67+RZ10CM1m3bTAVFEDcd5AuA4a6W5YkGZ1iNXHzZz8T6TBKLeBuNriQ==
@@ -1682,6 +1690,14 @@ natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
+
+next-transpile-modules@^6.3.0:
+  version "6.3.0"
+  resolved "https://ric.jfrog.io/ric/api/npm/npm/next-transpile-modules/-/next-transpile-modules-6.3.0.tgz#291ccb792cda73322a434590893e9965ed65a533"
+  integrity sha1-KRzLeSzaczIqQ0WQiT6ZZe1lpTM=
+  dependencies:
+    enhanced-resolve "^5.7.0"
+    escalade "^3.1.1"
 
 next@10.1.1:
   version "10.1.1"
@@ -2465,6 +2481,11 @@ table@^5.2.3:
     lodash "^4.17.14"
     slice-ansi "^2.1.0"
     string-width "^3.0.0"
+
+tapable@^2.2.0:
+  version "2.2.0"
+  resolved "https://ric.jfrog.io/ric/api/npm/npm/tapable/-/tapable-2.2.0.tgz#5c373d281d9c672848213d0e037d1c4165ab426b"
+  integrity sha1-XDc9KB2cZyhIIT0OA30cQWWrQms=
 
 text-table@^0.2.0:
   version "0.2.0"
